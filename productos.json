@@ -22,15 +22,16 @@
   { "id": 21, "nombre": "Taza Mágica", "precio": 5000, "imagen": "img/Tazas/Tazas 5.jpg", "categoria": "tazas" },
   { "id": 22, "nombre": "Taza Mágica", "precio": 5000, "imagen": "img/Tazas/Tazas 6.jpg", "categoria": "tazas" },
   { "id": 23, "nombre": "Taza Mágica", "precio": 5000, "imagen": "img/Tazas/Tazas 7.jpg", "categoria": "tazas" },
-  { "id": 24, "nombre": "Juguetes varios", "precio": 10000, "imagen": "img/Juguetes/juguete 1.jpg", "categoria": "juguetes" },
-  { "id": 25, "nombre": "Juguetes varios", "precio": 10000, "imagen": "img/Juguetes/juguete 2.jpg", "categoria": "juguetes" },
-  { "id": 27, "nombre": "Juguetes varios", "precio": 10000, "imagen": "img/Juguetes/juguete 3.jpg", "categoria": "juguetes" },
-  { "id": 28, "nombre": "Juguetes varios", "precio": 6000, "imagen": "img/Juguetes/juguete 4.jpg", "categoria": "juguetes" },
-  { "id": 29, "nombre": "Juguetes varios", "precio": 8000, "imagen": "img/Juguetes/juguete 5.jpg", "categoria": "juguetes" },
-  { "id": 30, "nombre": "Juguetes varios", "precio": 9000, "imagen": "img/Juguetes/juguete 6.jpg", "categoria": "juguetes" },
-  { "id": 31, "nombre": "Juguetes varios", "precio": 6000, "imagen": "img/Juguetes/juguete 7.jpg", "categoria": "juguetes" },
-  { "id": 32, "nombre": "Juguetes varios", "precio": 5000, "imagen": "img/Juguetes/juguete 8.jpg", "categoria": "juguetes" },
-  { "id": 33, "nombre": "Juguetes varios", "precio": 8000, "imagen": "img/Juguetes/juguete 9.jpg", "categoria": "juguetes" },
-  { "id": 34, "nombre": "Juguetes varios", "precio": 7000, "imagen": "img/Juguetes/juguete 10.jpg", "categoria": "juguetes" }
+  { "id": 24, "nombre": "Juguetes varios", "precio": 10000, "imagen": "img/Juguetes/Juguete 1.jpg", "categoria": "juguetes" },
+  { "id": 25, "nombre": "Juguetes varios", "precio": 10000, "imagen": "img/Juguetes/Juguete 2.jpg", "categoria": "juguetes" },
+  { "id": 27, "nombre": "Juguetes varios", "precio": 10000, "imagen": "img/Juguetes/Juguete 3.jpg", "categoria": "juguetes" },
+  { "id": 28, "nombre": "Juguetes varios", "precio": 6000, "imagen": "img/Juguetes/Juguete 4.jpg", "categoria": "juguetes" },
+  { "id": 29, "nombre": "Juguetes varios", "precio": 8000, "imagen": "img/Juguetes/Juguete 5.jpg", "categoria": "juguetes" },
+  { "id": 30, "nombre": "Juguetes varios", "precio": 9000, "imagen": "img/Juguetes/Juguete 6.jpg", "categoria": "juguetes" },
+  { "id": 31, "nombre": "Juguetes varios", "precio": 6000, "imagen": "img/Juguetes/Juguete 7.jpg", "categoria": "juguetes" },
+  { "id": 32, "nombre": "Juguetes varios", "precio": 5000, "imagen": "img/Juguetes/Juguete 8.jpg", "categoria": "juguetes" },
+  { "id": 33, "nombre": "Juguetes varios", "precio": 8000, "imagen": "img/Juguetes/Juguete 9.jpg", "categoria": "juguetes" },
+  { "id": 34, "nombre": "Juguetes varios", "precio": 7000, "imagen": "img/Juguetes/Juguete 10.jpg", "categoria": "juguetes" }
+
 
 ] 
