@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Tienda Guti - Tienda de Auriculares, Termos, Tecnología, Tazas y Juguetes." />
+  <meta name="author" content="German Rodriguez" />
+  <title>Tienda Guti</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top shadow">
+    <div class="container">
+      <a class="navbar-brand" href="#"><i class="fas fa-store me-2"></i> Tienda Guti</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#auriculares">Auriculares</a></li>
+          <li class="nav-item"><a class="nav-link" href="#termos">Termos</a></li>
+          <li class="nav-item"><a class="nav-link" href="#tecnologia">Tecnología</a></li>
+          <li class="nav-item"><a class="nav-link" href="#tazas">Tazas</a></li>
+          <li class="nav-item"><a class="nav-link" href="#juguetes">Juguetes</a></li>
+          <li class="nav-item">
+            <a class="nav-link active" href="#carrito"><i class="fas fa-shopping-cart"></i> Carrito</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <header class="hero text-white text-center py-5 mt-5">
+    <h1 class="display-4">BIENVENIDOS A TIENDA GUTI</h1>
+    <p class="lead">En Tienda Guti podras encontrar Auriculares, termos, tecnología, tazas y juguetes</p>
+  </header>
+
+  <main class="container my-5">
+    <section id="auriculares" class="mb-5">
+      <h2 class="text-primary">Auriculares</h2>
+      <div class="row" id="auriculares-productos"></div>
+    </section>
+
+    <section id="termos" class="mb-5">
+      <h2 class="text-primary">Termos</h2>
+      <div class="row" id="termos-productos"></div>
+    </section>
+
+    <section id="tecnologia" class="mb-5">
+      <h2 class="text-primary">Tecnología</h2>
+      <div class="row" id="tecnologia-productos"></div>
+    </section>
+
+    <section id="tazas" class="mb-5">
+      <h2 class="text-primary">Tazas</h2>
+      <div class="row" id="tazas-productos"></div>
+    </section>
+
+    <section id="juguetes" class="mb-5">
+      <h2 class="text-primary">Juguetes</h2>
+      <div class="row" id="juguetes-productos"></div>
+    </section>
+
+<section id="reseñas" class="container my-5">
+  <h2 class="text-primary mb-4">Reseñas de Clientes</h2>
+  <div class="reseñas-grid">
+    <div class="reseña">
+      <p>"Excelente calidad y servicio rápido. Muy recomendable."</p>
+      <h5>- Ana P.</h5>
+    </div>
+    <div class="reseña">
+      <p>"Los auriculares tienen un sonido increíble. Volveré a comprar."</p>
+      <h5>- Carlos M.</h5>
+    </div>
+    <div class="reseña">
+      <p>"Muy buena atención al cliente y productos de calidad."</p>
+      <h5>- María G.</h5>
+    </div>
+    <div class="reseña">
+      <p>"La entrega fue rápida y todo llegó perfecto."</p>
+      <h5>- Juan R.</h5>
+    </div>
+  </div>
+</section>
+
+    <section id="carrito" class="mt-5">
+      <h2 class="text-primary">🛒 Carrito</h2>
+      <ul class="list-group mb-3" id="carrito-lista"></ul>
+      <h4 class="text-end">Total: $<span id="total">0</span></h4>
+      <div class="text-end">
+        <button id="btn-whatsapp" class="btn btn-success">Enviar tu pedido por WhatsApp</button>
+      </div>
+    </section>
+
+    <section id="contacto" class="mb-5">
+  <h2 class="text-primary">Contacto</h2>
+  <form action="https://formspree.io/f/mwkajnqr" method="POST" class="mx-auto" style="max-width: 800px;margin: 0 auto;">
+      <div class="mb-3">
+      <label for="nombre" class="form-label">Nombre</label>
+      <input type="text" class="form-control" id="nombre" name="nombre" required>
+    </div>
+    <div class="mb-3">
+      <label for="email" class="form-label">Correo electrónico</label>
+      <input type="email" class="form-control" id="email" name="email" required>
+    </div>
+    <div class="mb-3">
+      <label for="mensaje" class="form-label">Mensaje</label>
+      <textarea class="form-control" id="mensaje" name="mensaje" rows="4" required></textarea>
+    </div>
+    <button type="submit" class="btn btn-primary">Enviar</button>
+  </form>
+</section>
+
+  </main>
+
+  <footer class="bg-dark text-white text-center py-4">
+    <p>Síguenos en nuestras redes:</p>
+    <a href="https://www.facebook.com/" class="text-white mx-2"><i class="fab fa-facebook fa-lg"></i></a>
+    <a href="https://www.instagram.com/" class="text-white mx-2"><i class="fab fa-instagram fa-lg"></i></a>
+    <a href="https://wa.me/5491149731372" class="text-white mx-2"><i class="fab fa-whatsapp fa-lg"></i></a>
+    <p class="mt-2 mb-0">&copy; 2025 Tienda Guti</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
